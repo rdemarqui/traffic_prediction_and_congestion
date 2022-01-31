@@ -1,5 +1,5 @@
 ## Traffic and congestion prediction on LTE networks
-![Alt text](images/cellular-network.png?raw=true "Tower"
+![Alt text](images/cellular-network.png?raw=true "Tower")
 
 ### Overview
 To handle the dramatic increase in data volume and better serve their customers, mobile network operators need to design and manage network architectures according to the required demand.
