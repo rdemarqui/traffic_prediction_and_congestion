@@ -15,7 +15,7 @@ Build a solution capable of predicting long term (3 months) cell traffic and con
 
 ### About the Data
 
-### Methodolgy
+### Methodology
 The methodology implemented was adapted from a solution proposed by Chmieliauskas & Guršnys (2019).
 The regression tool used was Facebook Prophet, developed by Facebook's data science team. Through the grid search method, were identified the hyperparameters that most influenced the algorithm's performance, and based on this result, ten configurations were created to be applied to the entire dataset.
 
