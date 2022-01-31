@@ -17,6 +17,9 @@ Build a solution capable of predicting long term (3 months) cell traffic and con
 
 ### Methodolgy
 The methodology implemented was adapted from a solution proposed by Chmieliauskas & Guršnys (2019).
+The regression tool used was Facebook Prophet, developed by Facebook's data science team. Through the grid search method, were identified the hyperparameters that most influenced the algorithm's performance, and based on this result, ten configurations were created to be applied to the entire dataset.
+
+The full implementation can be found [here](https://github.com/rdemarqui/traffic_prediction_and_congestion/blob/main/traffic_prediction_congestion.ipynb)
 
 
 ### Results and Conclusions
