@@ -19,13 +19,13 @@ The study and results were made with data collected from a real network of an ce
 
 
 ### Methodology
-The methodology implemented was adapted from a solution proposed by Chmieliauskas & Guršnys (2019).  
+The methodology implemented was adapted from a solution proposed by Chmieliauskas & Guršnys (2019). Implemented int two parts, firstly was necessari predict **cell data traffic** and after that the **cell congestion** through PRB (physical resource block) usage.
 
 #### Cell Traffic
-The regression tool used was Facebook Prophet, developed by Facebook's data science team. Through the grid search method, were identified the hyperparameters that most influenced the algorithm's performance, and based on this result, ten configurations were created to be applied to the entire dataset.  
+The regression tool used was Facebook Prophet, developed by Facebook's data science team. Through the grid search method, were identified the hyperparameters that most influenced the algorithm's performance, and based on this result, ten configurations were created to be applied to the entire dataset.
 
 #### Cell Congestion
-A good KPI for measuring cell congestion is measuring PRB (physical resource block) usage. After predicting the netowrk traffic, it's possible to estimate PRB usage through a linear correlation, due to high correlation between these two variables.
+A good KPI for measuring cell congestion is measuring PRB usage, which are limited radio resources that are allocated according to user demand - a good explanation can be obtained on Capozzi, et al (2013). After predicting the netowrk traffic, it's possible to estimate PRB usage through a linear correlation, due to high correlation between these two variables.
 
 The full implementation can be found [here](https://github.com/rdemarqui/traffic_prediction_and_congestion/blob/main/traffic_prediction_congestion.ipynb)
 
