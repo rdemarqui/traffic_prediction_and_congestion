@@ -14,17 +14,20 @@ Build a solution capable of predicting long term (3 months) cell traffic and con
 * Scikit-learn 1.0.2
 
 ### About the Data
+The study and results were made with data collected from a real network of an certain city. Unfortunately I can't share it, however a synthetic data with similar chartacteristics was created to test the code.
+
 
 ### Methodology
-The methodology implemented was adapted from a solution proposed by Chmieliauskas & Guršnys (2019).
-The regression tool used was Facebook Prophet, developed by Facebook's data science team. Through the grid search method, were identified the hyperparameters that most influenced the algorithm's performance, and based on this result, ten configurations were created to be applied to the entire dataset.
-
+The methodology implemented was adapted from a solution proposed by Chmieliauskas & Guršnys (2019).  
+**Cell Traffic**
+The regression tool used was Facebook Prophet, developed by Facebook's data science team. Through the grid search method, were identified the hyperparameters that most influenced the algorithm's performance, and based on this result, ten configurations were created to be applied to the entire dataset.  
+**Cell Congestion**
+To do  
 The full implementation can be found [here](https://github.com/rdemarqui/traffic_prediction_and_congestion/blob/main/traffic_prediction_congestion.ipynb)
 
 
 ### Results and Conclusions
-#### Cell Traffic
-#### Cell Congestion
+To do
 
 ### References
 * Capozzi, F., Piro, G., Grieco, L.A., Boggia, G., & Camarda, P. (2013). Downlink packet scheduling in LTE cellular networks: Key design issues and a survey. IEEE Communications Surveys and Tutorials 15, 678–700.
