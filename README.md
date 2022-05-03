@@ -27,7 +27,7 @@ The regression tool used was Facebook Prophet, developed by Facebook's data scie
 #### Cell Congestion
 A good KPI for measuring cell congestion is measuring PRB usage, which are limited radio resources that are allocated according to user demand - a good explanation can be obtained in Capozzi, et al (2013). After predicting the netowrk traffic, it's possible to estimate PRB usage through a linear correlation, due to high correlation between these two variables.
 
-The full implementation can be found [here](https://github.com/rdemarqui/traffic_prediction_and_congestion/blob/main/traffic_prediction_congestion.ipynb)
+The full implementation can be found [here](https://github.com/rdemarqui/traffic_prediction_and_congestion/blob/main/LTE_Cell_Traffic_Grow_and_Congestion_Forecasting.ipynb)
 
 
 ### Results and Conclusions
