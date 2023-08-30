@@ -15,7 +15,7 @@ Build a solution capable of predicting long term (3 months) cell traffic and con
 * `sklearn 1.0.2`
 * `scipy 1.10.1`
 * `numpy 1.23.5`
-* `matplotlib matplotlib`
+* `matplotlib 3.7.1`
 * `seaborn 0.12.2`
 
 ### About the Data
