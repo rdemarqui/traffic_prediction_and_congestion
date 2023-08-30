@@ -9,10 +9,14 @@ A nationwide cellular mobile network contains tens of thousands of base stations
 Build a solution capable of predicting long term (3 months) cell traffic and congestion.
 
 ### Tecnologies Used
-* Python
-* Facebook Prophet
-* Pandas 1.4.0
-* Scikit-learn 1.0.2
+* `python 3.9.16`
+* `fbprophet 0.7.1`
+* `pandas 1.4.0`
+* `sklearn 1.0.2`
+* `scipy 1.10.1`
+* `numpy 1.23.5`
+* `matplotlib matplotlib`
+* `seaborn 0.12.2`
 
 ### About the Data
 The study and results were made with data collected from a real network of an certain city. Unfortunately I can't share it, however a synthetic data with similar chartacteristics was created to test the code.
@@ -28,7 +32,6 @@ The regression tool used was Facebook Prophet, developed by Facebook's data scie
 A good KPI for measuring cell congestion is measuring PRB usage, which are limited radio resources that are allocated according to user demand - a good explanation can be obtained in Capozzi, et al (2013). After predicting the netowrk traffic, it's possible to estimate PRB usage through a linear correlation, due to high correlation between these two variables.
 
 The full implementation can be found [here](https://github.com/rdemarqui/traffic_prediction_and_congestion/blob/main/LTE_Cell_Traffic_Grow_and_Congestion_Forecasting.ipynb)
-
 
 ### Results and Conclusions
 To do
