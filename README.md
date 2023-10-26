@@ -1,4 +1,7 @@
-## Traffic and congestion prediction on LTE networks
+<div align="center">
+  <h1>Traffic and congestion prediction on LTE networks</h1>
+</div>
+
 <p align="center">
 <img src="images\cellular-network.png" class="center" width="45%"/>
 </p>
