@@ -7,12 +7,15 @@
 </p>
 
 ### Overview
+<p align="justify">
 To handle the dramatic increase in data volume and better serve their customers, mobile network operators need to design and manage network architectures according to the required demand.
 A nationwide cellular mobile network contains tens of thousands of base stations. Estimating the traffic increment and consequent congestion of each of these elements can become an arduous and imprecise task, and can lead to incorrect investment decisions. An automation of this methodology means greater speed and standardization of decision-making, serving as a great help to both the technical and marketing areas.
 
-The purpose of this work was to to provide a replicable code for the [paperswithcode.com](https://paperswithcode.com/), based on a study done by D. Chmieliauskas and D. Guršnys, called "LTE Cell Traffic Grow and Congestion Forecasting,". For more details, go to: https://paperswithcode.com/paper/lte-cell-traffic-grow-and-congestion.
+<p align="justify">
+The purpose of this work was to to provide a replicable code for the <a href="https://paperswithcode.com/">paperswithcode</a>, based on a study done by D. Chmieliauskas and D. Guršnys, called "LTE Cell Traffic Grow and Congestion Forecasting". For more details, go to: https://paperswithcode.com/paper/lte-cell-traffic-grow-and-congestion.
 
 ### Objectives
+<p align="justify">
 Build a solution capable of predicting long-term (3 months) cell traffic and congestion.
 
 ### Technologies Used
@@ -26,22 +29,28 @@ Build a solution capable of predicting long-term (3 months) cell traffic and con
 * `seaborn 0.12.2`
 
 ### About the Data
+<p align="justify">
 The study and results were made with data collected from a real network of a certain city. Unfortunately, it's not possible to share it.
 
 ### Methodology
-The methodology implemented was adapted from a solution proposed by Chmieliauskas & Guršnys (2019), divided into two parts. Firstly it was necessary to predict **cell data traffic** and then the **cell congestion** through PRB (physical resource block) usage.
+<p align="justify">
+The methodology implemented was adapted from a solution proposed by Chmieliauskas & Guršnys (2019), divided into two parts. Firstly it was necessary to predict <b>cell data traffic</b> and then the <b>cell congestion</b> through PRB (physical resource block) usage.
 
 #### Cell Traffic
+<p align="justify">
 The regression tool used was Facebook Prophet, developed by Facebook's data science team. Through the grid search method, were identified the hyperparameters that most influenced the algorithm's performance, and based on this result, ten configurations were created to be applied to the entire dataset.
 
 #### Cell Congestion
+<p align="justify">
 A good KPI for measuring cell congestion is measuring PRB usage, which is limited radio resources that are allocated according to user demand - a good explanation can be obtained from Capozzi, et al (2013). After predicting the network traffic, it's possible to estimate PRB usage through a linear correlation, due to the high correlation between these two variables.
 
 The full implementation can be found [here](https://github.com/rdemarqui/traffic_prediction_and_congestion/blob/main/LTE_Cell_Traffic_Grow_and_Congestion_Forecasting.ipynb)
 
 ### Results and Conclusions
+<p align="justify">
 As stated at the beginning of this work, the main objective of this work is to replicate the work done by D. Chmieliauskas and D. Guršnys in order to make the code available on paperswithcode.com. Some improvements were suggested throughout the code, such as data transformation through box-cox, the utilization of 1.5-year data history to capture annual seasonality, the differentiation of data between weekdays and weekends to better capture individual cell characteristics, and finally, the use of the sMAPE indicator due to its robustness to outliers. 
 
+<p align="justify">
 The results obtained in this work were not satisfactory; however, since there was no tuning performed, it is possible to improve them. The methodology was applied to predict traffic congestion in LTE access network elements, but it can be easily adapted to other technologies, such as 5G, or to other components of the mobile network, such as core elements and data transmission, with the understanding and adaptation of the specificities of the new problem.
 
 ### References
