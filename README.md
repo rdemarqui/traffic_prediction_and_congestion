@@ -16,11 +16,11 @@ The purpose of this work was to to provide a replicable code for the <a href="ht
 
 ### Objectives
 <p align="justify">
-Build a solution capable of predicting long-term (3 months) cell traffic and congestion.
+Build a solution capable of predicting long-term (28 days) cell traffic and congestion.
 
 ### Technologies Used
 * `python 3.9.16`
-* `fbprophet 0.7.1`
+* `prophet 1.1.5`
 * `pandas 1.4.0`
 * `sklearn 1.0.2`
 * `scipy 1.10.1`
@@ -30,7 +30,7 @@ Build a solution capable of predicting long-term (3 months) cell traffic and con
 
 ### About the Data
 <p align="justify">
-The study and results were made with data collected from a real network of a certain city. Unfortunately, it's not possible to share it.
+The results presented in this work were generated using real data from a cellular network. However, due to compliance reasons, the original data cannot be shared. Instead, a noised sample of the data is available for full code execution.
 
 ### Methodology
 <p align="justify">
