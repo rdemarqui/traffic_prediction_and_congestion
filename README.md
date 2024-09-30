@@ -38,13 +38,13 @@ The methodology implemented was adapted from a solution proposed by Chmieliauska
 
 #### Cell Traffic
 <p align="justify">
-The regression tool used was Facebook Prophet, developed by Facebook's data science team. Through the grid search method, were identified the hyperparameters that most influenced the algorithm's performance, and based on this result, ten configurations were created to be applied to the entire dataset.
+The regression tool used was Facebook Prophet, developed by Facebook's data science team. Three different configurations for the hyperparameters of yearly, monthly, and daily seasonality were tested, with the latter being split between weekdays and weekends. The performance was evaluated using the sMAPE, EVS, and R2 metrics.
 
 #### Cell Congestion
 <p align="justify">
-A good KPI for measuring cell congestion is measuring PRB usage, which is limited radio resources that are allocated according to user demand - a good explanation can be obtained from Capozzi, et al (2013). After predicting the network traffic, it's possible to estimate PRB usage through a linear correlation, due to the high correlation between these two variables.
+A good KPI for measuring cell congestion is measuring PRB usage, which is limited radio resources that are allocated according to user demand - a good explanation can be obtained from Capozzi, et al (2013). After predicting the network traffic, it was possible to estimate PRB usage through a linear correlation, due to the high correlation between these two variables.
 
-The full implementation can be found [here](https://github.com/rdemarqui/traffic_prediction_and_congestion/blob/main/LTE_Cell_Traffic_Grow_and_Congestion_Forecasting.ipynb)
+The full code implementation can be found [here](https://github.com/rdemarqui/traffic_prediction_and_congestion/blob/main/LTE_Cell_Traffic_Grow_and_Congestion_Forecasting.ipynb)
 
 ### Results and Conclusions
 <p align="justify">
