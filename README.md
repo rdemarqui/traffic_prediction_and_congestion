@@ -54,8 +54,8 @@ As stated at the beginning of this work, the main objective of this work is to r
 The results obtained in this work were not satisfactory; however, since there was no tuning performed, it is possible to improve them. The methodology was applied to predict traffic congestion in LTE access network elements, but it can be easily adapted to other technologies, such as 5G, or to other components of the mobile network, such as core elements and data transmission, with the understanding and adaptation of the specificities of the new problem.
 
 ### References
-* Capozzi, F., Piro, G., Grieco, L.A., Boggia, G., & Camarda, P. (2013). Downlink packet scheduling in LTE cellular networks: Key design issues and a survey. IEEE Communications Surveys and Tutorials 15, 678–700.
-* Chmieliauskas, D., & Gursnys, D. (2019). LTE Cell Traffic Grow and Congestion Forecasting. In 2019 Open Conference of Electrical, Electronic and Information Sciences, EStream 2019 - Proceedings, (Institute of Electrical and Electronics Engineers Inc.)
-* Tofallis, Chris (2015). A better measure of relative prediction accuracy for model selection and model estimation. Journal of the Operational Research Society
-* FaceBook Research (2017). Prophet: forecasting at scale. https://research.fb.com/blog/2017/02/prophet-forecasting-at-scale/
-* Rafferty, G. (2021). Forecasting Time Series Data with Facebook Prophet. Birmingham, Packt Publishing Ltd.
+* <p align="justify"> Capozzi, F., Piro, G., Grieco, L.A., Boggia, G., & Camarda, P. (2013). Downlink packet scheduling in LTE cellular networks: Key design issues and a survey. IEEE Communications Surveys and Tutorials 15, 678–700.
+* <p align="justify"> Chmieliauskas, D., & Gursnys, D. (2019). LTE Cell Traffic Grow and Congestion Forecasting. In 2019 Open Conference of Electrical, Electronic and Information Sciences, EStream 2019 - Proceedings, (Institute of Electrical and Electronics Engineers Inc.)
+* <p align="justify"> Tofallis, Chris (2015). A better measure of relative prediction accuracy for model selection and model estimation. Journal of the Operational Research Society
+* <p align="justify"> FaceBook Research (2017). Prophet: forecasting at scale. https://research.fb.com/blog/2017/02/prophet-forecasting-at-scale/
+* <p align="justify"> Rafferty, G. (2021). Forecasting Time Series Data with Facebook Prophet. Birmingham, Packt Publishing Ltd.
